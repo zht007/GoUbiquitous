@@ -1,0 +1,7 @@
+#Thu Feb 16 10:27:05 GMT 2017
+base.0=/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/GridViewPager/Wearable/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_10f25ddcd3a2542e82561510b5c0aaa29617391f
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/GridViewPager/Wearable/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_3c04156c11d9a9df17f305fd80bcaed9b96d147a/classes.dex
+base.1=/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/GridViewPager/Wearable/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_3c04156c11d9a9df17f305fd80bcaed9b96d147a
+file.0=/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/GridViewPager/Wearable/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_10f25ddcd3a2542e82561510b5c0aaa29617391f/classes.dex

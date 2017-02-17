@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WearNotifications/Wearable/build/intermediates/res/merged/debug/drawable-mdpi/ic_cancel_white_48dp.png",
+        "source": "/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WearNotifications/Wearable/src/main/res/drawable-mdpi/ic_cancel_white_48dp.png"
+    },
+    {
+        "merged": "/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WearNotifications/Wearable/build/intermediates/res/merged/debug/drawable-mdpi/ic_person_black_48dp.png",
+        "source": "/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WearNotifications/Wearable/src/main/res/drawable-mdpi/ic_person_black_48dp.png"
+    },
+    {
+        "merged": "/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WearNotifications/Wearable/build/intermediates/res/merged/debug/drawable-mdpi/ic_reply_white_18dp.png",
+        "source": "/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WearNotifications/Wearable/src/main/res/drawable-mdpi/ic_reply_white_18dp.png"
+    },
+    {
+        "merged": "/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WearNotifications/Wearable/build/intermediates/res/merged/debug/drawable-mdpi/ic_alarm_white_48dp.png",
+        "source": "/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WearNotifications/Wearable/src/main/res/drawable-mdpi/ic_alarm_white_48dp.png"
+    },
+    {
+        "merged": "/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WearNotifications/Wearable/build/intermediates/res/merged/debug/drawable-mdpi/ic_message_black_18dp.png",
+        "source": "/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WearNotifications/Wearable/src/main/res/drawable-mdpi/ic_message_black_18dp.png"
+    },
+    {
+        "merged": "/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WearNotifications/Wearable/build/intermediates/res/merged/debug/drawable-mdpi/ic_launcher.png",
+        "source": "/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WearNotifications/Wearable/src/main/res/drawable-mdpi/ic_launcher.png"
+    }
+]

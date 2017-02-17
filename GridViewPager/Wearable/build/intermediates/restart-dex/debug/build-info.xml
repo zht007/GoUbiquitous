@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86"
+    api-level="22"
+    density="tvdpi"
+    format="8"
+    plugin-version="2.2.3"
+    timestamp="85211641182593"
+    token="-1214530253772765372"
+    verifier="FULL_BUILD_REQUESTED" >
+
+    <task
+        name="javac"
+        duration="2507" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="618" />
+    <task
+        name="verifier"
+        duration="91" />
+
+    <artifact
+        location="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/GridViewPager/Wearable/build/outputs/apk/Wearable-debug.apk"
+        type="MAIN" />
+
+    <build
+        timestamp="85211641182593"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/GridViewPager/Wearable/build/outputs/apk/Wearable-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>

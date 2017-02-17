@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WearNotifications/Application/build/intermediates/res/merged/debug/drawable-hdpi/ic_alarm_white_48dp.png",
+        "source": "/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WearNotifications/Application/src/main/res/drawable-hdpi/ic_alarm_white_48dp.png"
+    },
+    {
+        "merged": "/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WearNotifications/Application/build/intermediates/res/merged/debug/drawable-hdpi/ic_launcher.png",
+        "source": "/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WearNotifications/Application/src/main/res/drawable-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WearNotifications/Application/build/intermediates/res/merged/debug/drawable-hdpi/earth.png",
+        "source": "/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WearNotifications/Application/src/main/res/drawable-hdpi/earth.png"
+    },
+    {
+        "merged": "/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WearNotifications/Application/build/intermediates/res/merged/debug/drawable-hdpi/ic_message_black_18dp.png",
+        "source": "/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WearNotifications/Application/src/main/res/drawable-hdpi/ic_message_black_18dp.png"
+    },
+    {
+        "merged": "/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WearNotifications/Application/build/intermediates/res/merged/debug/drawable-hdpi/ic_cancel_white_48dp.png",
+        "source": "/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WearNotifications/Application/src/main/res/drawable-hdpi/ic_cancel_white_48dp.png"
+    },
+    {
+        "merged": "/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WearNotifications/Application/build/intermediates/res/merged/debug/drawable-hdpi/tile.9.png",
+        "source": "/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WearNotifications/Application/src/main/res/drawable-hdpi/tile.9.png"
+    },
+    {
+        "merged": "/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WearNotifications/Application/build/intermediates/res/merged/debug/drawable-hdpi/ic_person_black_48dp.png",
+        "source": "/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WearNotifications/Application/src/main/res/drawable-hdpi/ic_person_black_48dp.png"
+    },
+    {
+        "merged": "/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WearNotifications/Application/build/intermediates/res/merged/debug/drawable-hdpi/ic_reply_white_18dp.png",
+        "source": "/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WearNotifications/Application/src/main/res/drawable-hdpi/ic_reply_white_18dp.png"
+    }
+]

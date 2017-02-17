@@ -1,0 +1,82 @@
+[
+    {
+        "merged": "/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi/preview_fit_circular.png",
+        "source": "/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Wearable/src/main/res/drawable-hdpi/preview_fit_circular.png"
+    },
+    {
+        "merged": "/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi/preview_interactive_circular.png",
+        "source": "/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Wearable/src/main/res/drawable-hdpi/preview_interactive_circular.png"
+    },
+    {
+        "merged": "/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi/preview_opengl_circular.png",
+        "source": "/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Wearable/src/main/res/drawable-hdpi/preview_opengl_circular.png"
+    },
+    {
+        "merged": "/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi/preview_complication_simple.png",
+        "source": "/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Wearable/src/main/res/drawable-hdpi/preview_complication_simple.png"
+    },
+    {
+        "merged": "/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi/preview_calendar.png",
+        "source": "/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Wearable/src/main/res/drawable-hdpi/preview_calendar.png"
+    },
+    {
+        "merged": "/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi/preview_fit.png",
+        "source": "/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Wearable/src/main/res/drawable-hdpi/preview_fit.png"
+    },
+    {
+        "merged": "/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi/preview_digital_circular.png",
+        "source": "/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Wearable/src/main/res/drawable-hdpi/preview_digital_circular.png"
+    },
+    {
+        "merged": "/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi/ic_lock_open_white_24dp.png",
+        "source": "/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Wearable/src/main/res/drawable-hdpi/ic_lock_open_white_24dp.png"
+    },
+    {
+        "merged": "/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi/preview_distance_circular.png",
+        "source": "/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Wearable/src/main/res/drawable-hdpi/preview_distance_circular.png"
+    },
+    {
+        "merged": "/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi/preview_digital.png",
+        "source": "/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Wearable/src/main/res/drawable-hdpi/preview_digital.png"
+    },
+    {
+        "merged": "/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi/preview_card_bounds_circular.png",
+        "source": "/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Wearable/src/main/res/drawable-hdpi/preview_card_bounds_circular.png"
+    },
+    {
+        "merged": "/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi/preview_opengl.png",
+        "source": "/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Wearable/src/main/res/drawable-hdpi/preview_opengl.png"
+    },
+    {
+        "merged": "/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi/preview_analog.png",
+        "source": "/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Wearable/src/main/res/drawable-hdpi/preview_analog.png"
+    },
+    {
+        "merged": "/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi/preview_distance.png",
+        "source": "/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Wearable/src/main/res/drawable-hdpi/preview_distance.png"
+    },
+    {
+        "merged": "/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi/preview_analog_circular.png",
+        "source": "/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Wearable/src/main/res/drawable-hdpi/preview_analog_circular.png"
+    },
+    {
+        "merged": "/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi/preview_calendar_circular.png",
+        "source": "/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Wearable/src/main/res/drawable-hdpi/preview_calendar_circular.png"
+    },
+    {
+        "merged": "/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi/preview_interactive.png",
+        "source": "/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Wearable/src/main/res/drawable-hdpi/preview_interactive.png"
+    },
+    {
+        "merged": "/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi/ic_launcher.png",
+        "source": "/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Wearable/src/main/res/drawable-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi/preview_card_bounds.png",
+        "source": "/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Wearable/src/main/res/drawable-hdpi/preview_card_bounds.png"
+    },
+    {
+        "merged": "/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi/bg.png",
+        "source": "/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Wearable/src/main/res/drawable-hdpi/bg.png"
+    }
+]

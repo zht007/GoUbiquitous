@@ -1,0 +1,7 @@
+#Wed Feb 15 17:21:21 GMT 2017
+base.0=/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Application/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_da5ebd86a164e854b065539f163378c0f7e23328
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Application/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_32bcd17bae089f8250368bd5b7b2e63a03c7841b/classes.dex
+base.1=/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Application/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_32bcd17bae089f8250368bd5b7b2e63a03c7841b
+file.0=/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Application/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_da5ebd86a164e854b065539f163378c0f7e23328/classes.dex

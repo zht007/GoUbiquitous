@@ -1,0 +1,99 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/src/main/AndroidManifest.xml:17:1-48:12
+	package
+		ADDED from /Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/src/main/AndroidManifest.xml:18:9-67
+	android:versionName
+		INJECTED from /Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/src/main/AndroidManifest.xml
+		INJECTED from /Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/src/main/AndroidManifest.xml:17:11-69
+	android:versionCode
+		INJECTED from /Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/src/main/AndroidManifest.xml
+		INJECTED from /Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/src/main/AndroidManifest.xml
+uses-sdk
+ADDED from /Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/src/main/AndroidManifest.xml:20:5-21:41
+MERGED from [com.google.android.gms:play-services-wearable:10.0.1] /Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/10.0.1/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-base:10.0.1] /Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-tasks:10.0.1] /Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.0.1/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:17:5-42
+MERGED from [com.android.support:support-v13:25.0.1] /Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/build/intermediates/exploded-aar/com.android.support/support-v13/25.0.1/AndroidManifest.xml:21:5-23:55
+MERGED from [com.google.android.support:wearable:2.0.0] /Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/build/intermediates/exploded-aar/com.google.android.support/wearable/2.0.0/AndroidManifest.xml:4:5-72
+MERGED from [com.android.support:percent:23.0.1] /Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/build/intermediates/exploded-aar/com.android.support/percent/23.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.0.1] /Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:25.0.1] /Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.1/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.0.1] /Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.0.1] /Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.0.1] /Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.0.1] /Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.0.1] /Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:support-v13:25.0.1] /Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/build/intermediates/exploded-aar/com.android.support/support-v13/25.0.1/AndroidManifest.xml:23:9-52
+	android:targetSdkVersion
+		ADDED from /Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/src/main/AndroidManifest.xml:21:9-38
+		INJECTED from /Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/src/main/AndroidManifest.xml
+		INJECTED from /Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/src/main/AndroidManifest.xml:20:15-41
+		INJECTED from /Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/src/main/AndroidManifest.xml
+		INJECTED from /Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/src/main/AndroidManifest.xml
+uses-feature#android.hardware.type.watch
+ADDED from /Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/src/main/AndroidManifest.xml:23:5-64
+	android:name
+		ADDED from /Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/src/main/AndroidManifest.xml:23:19-61
+application
+ADDED from /Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/src/main/AndroidManifest.xml:25:5-47:19
+MERGED from [com.google.android.gms:play-services-wearable:10.0.1] /Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/10.0.1/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-base:10.0.1] /Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-tasks:10.0.1] /Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.0.1/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v13:25.0.1] /Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/build/intermediates/exploded-aar/com.android.support/support-v13/25.0.1/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.support:wearable:2.0.0] /Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/build/intermediates/exploded-aar/com.google.android.support/wearable/2.0.0/AndroidManifest.xml:6:5-19
+MERGED from [com.android.support:percent:23.0.1] /Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/build/intermediates/exploded-aar/com.android.support/percent/23.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:25.0.1] /Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.1/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.0.1] /Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.0.1] /Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.0.1] /Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.0.1] /Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.0.1] /Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/AndroidManifest.xml:25:5-20
+	android:label
+		ADDED from /Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/src/main/AndroidManifest.xml:28:13-45
+	android:allowBackup
+		ADDED from /Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/src/main/AndroidManifest.xml:26:13-39
+	android:icon
+		ADDED from /Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/src/main/AndroidManifest.xml:27:13-49
+	android:theme
+		ADDED from /Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/src/main/AndroidManifest.xml:29:13-63
+meta-data#com.google.android.gms.version
+ADDED from /Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/src/main/AndroidManifest.xml:31:9-33:69
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from /Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/src/main/AndroidManifest.xml:33:13-66
+	android:name
+		ADDED from /Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/src/main/AndroidManifest.xml:32:13-58
+service#com.example.android.wearable.delayedconfirmation.WearableMessageListenerService
+ADDED from /Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/src/main/AndroidManifest.xml:35:9-40:19
+	android:name
+		ADDED from /Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/src/main/AndroidManifest.xml:36:13-59
+intent-filter#com.google.android.gms.wearable.BIND_LISTENER
+ADDED from /Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/src/main/AndroidManifest.xml:37:13-39:29
+action#com.google.android.gms.wearable.BIND_LISTENER
+ADDED from /Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/src/main/AndroidManifest.xml:38:17-88
+	android:name
+		ADDED from /Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/src/main/AndroidManifest.xml:38:25-85
+activity#com.example.android.wearable.delayedconfirmation.MainActivity
+ADDED from /Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/src/main/AndroidManifest.xml:42:9-46:20
+	android:label
+		ADDED from /Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/src/main/AndroidManifest.xml:44:13-45
+	android:exported
+		ADDED from /Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/src/main/AndroidManifest.xml:45:13-36
+	android:name
+		ADDED from /Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/src/main/AndroidManifest.xml:43:13-41
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:10.0.1] /Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:10.0.1] /Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:10.0.1] /Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:10.0.1] /Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/AndroidManifest.xml:19:19-85

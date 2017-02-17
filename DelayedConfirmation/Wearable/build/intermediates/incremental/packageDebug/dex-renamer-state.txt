@@ -1,0 +1,7 @@
+#Thu Feb 16 16:02:20 GMT 2017
+base.0=/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_a43e312ea061d488c8a88d668f1900f1094b9e34
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_dce8e48b2c7c725266b312e388a5745e787c9eab/classes.dex
+base.1=/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_dce8e48b2c7c725266b312e388a5745e787c9eab
+file.0=/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_a43e312ea061d488c8a88d668f1900f1094b9e34/classes.dex

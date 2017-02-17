@@ -1,0 +1,7 @@
+#Wed Feb 15 16:29:45 GMT 2017
+base.0=/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WearNotifications/Application/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_45c66f4702150b8dc0ed15c6a45093587c5ea830
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WearNotifications/Application/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_dfd21c277d46df4e2d93783ec2cb8137ef766e5e/classes.dex
+base.1=/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WearNotifications/Application/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_dfd21c277d46df4e2d93783ec2cb8137ef766e5e
+file.0=/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WearNotifications/Application/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_45c66f4702150b8dc0ed15c6a45093587c5ea830/classes.dex

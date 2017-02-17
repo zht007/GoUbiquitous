@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/BasicNotifications/Application/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9af737b100412242408943ec090db995a33dbcfc">
+        <dex dex="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/BasicNotifications/Application/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_9dec8b6a4a20a52933bc7ca46eba48f4cde35c28/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/BasicNotifications/Application/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
+        <dex dex="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/BasicNotifications/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.0.1_542e344dd642db9c1722bf81deb73b616d816e14/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/BasicNotifications/Application/build/intermediates/exploded-aar/com.android.support/gridlayout-v7/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4700f436ede140fb804204f806c9cc3f08e386f4">
+        <dex dex="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/BasicNotifications/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-gridlayout-v7-25.0.1_9516f9702728cf142d23fef8019375d15a6a2804/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/BasicNotifications/Application/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="63cec70d2d72b8e65ad40677feea9d663cab68c3">
+        <dex dex="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/BasicNotifications/Application/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_f33ee02297fc921c4463441629d71e1dc2880673/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/BasicNotifications/Application/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/BasicNotifications/Application/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_69445ed418a54b95016973df0e84283bb71915f7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/BasicNotifications/Application/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/BasicNotifications/Application/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_331a72327f649181cd45f392d0485b26bcd56e18/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hongtao/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.1/support-annotations-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
+        <dex dex="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/BasicNotifications/Application/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.0.1_4e8f4aa8d677466dadde6e00398979daba37fb6b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/BasicNotifications/Application/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
+        <dex dex="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/BasicNotifications/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.0.1_b464fc3d02234d2dc209891a2bfda12b640bca4d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/BasicNotifications/Application/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
+        <dex dex="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/BasicNotifications/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.0.1_ad62095a2392875299d75951bbe4a02a27161ec9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/BasicNotifications/Application/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/BasicNotifications/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.0.1_68defb92ce218835dfe79071991e50f8096a7cfc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/BasicNotifications/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
+        <dex dex="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/BasicNotifications/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.0.1_737262573beb1463a9a07c8644cefcfa117a6d0b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/BasicNotifications/Application/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/BasicNotifications/Application/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_6a9057162732eb51d77d9431fbb20cd4baa84e0a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/BasicNotifications/Application/build/intermediates/exploded-aar/com.android.support/cardview-v7/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1108575c7dc7b7f5b378b3290ac90de81a9b8830">
+        <dex dex="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/BasicNotifications/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-cardview-v7-25.0.1_9ec416fdfd57507e5748a829e720214a33c7d1ec/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/BasicNotifications/Application/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
+        <dex dex="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/BasicNotifications/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.0.1_da1afd32ec5ce26782de647c037cd378d2f40348/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/BasicNotifications/Application/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/BasicNotifications/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.0.1_a1c7f976b14280d22834d367d37ccd417978e9cf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/BasicNotifications/Application/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/BasicNotifications/Application/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_73e419f8a376136134105d0500aa30f35fb4a519/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/BasicNotifications/Application/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
+        <dex dex="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/BasicNotifications/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.0.1_13e901a2383ccfb983c501778093fe932e72bb22/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/BasicNotifications/Application/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
+        <dex dex="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/BasicNotifications/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.0.1_23a3dd6fe0cf04ab01010d8e75447d482d3b5803/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/BasicNotifications/Application/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/BasicNotifications/Application/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_fe34ac57b3d05bdfe22aa2b70038bfa086e41604/classes.dex" />
+    </item>
+
+</items>

@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/ActiveNotifications/Application/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/ActiveNotifications/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/ActiveNotifications/Application/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/ActiveNotifications/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/ActiveNotifications/Application/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/ActiveNotifications/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/ActiveNotifications/Application/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/ActiveNotifications/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout-v21/notification_action.xml"
+    }
+]

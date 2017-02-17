@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/build/intermediates/res/merged/debug/layout-v21/accept_deny_dialog.xml",
+        "source": "/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/build/intermediates/exploded-aar/com.google.android.support/wearable/2.0.0/res/layout-v21/accept_deny_dialog.xml"
+    },
+    {
+        "merged": "/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/build/intermediates/res/merged/debug/layout-v21/overlay_confirmation.xml",
+        "source": "/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/build/intermediates/exploded-aar/com.google.android.support/wearable/2.0.0/res/layout-v21/overlay_confirmation.xml"
+    },
+    {
+        "merged": "/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/build/intermediates/res/merged/debug/layout-v21/dismiss_overlay.xml",
+        "source": "/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/build/intermediates/exploded-aar/com.google.android.support/wearable/2.0.0/res/layout-v21/dismiss_overlay.xml"
+    }
+]

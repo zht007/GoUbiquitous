@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="armeabi-v7a,armeabi"
+    api-level="23"
+    density="xxhdpi"
+    format="8"
+    plugin-version="2.2.3"
+    timestamp="2184229622945"
+    token="5103206370945521428"
+    verifier="COLD_SWAP_REQUESTED" >
+
+    <task
+        name="javac"
+        duration="0" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="0" />
+    <task
+        name="verifier"
+        duration="0" />
+
+    <artifact
+        location="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Application/build/intermediates/transforms/dex/debug/folders/1000/5/slice_9/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Application/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Application/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Application/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.0.1_6fc19cff57fe1c7b70945151929f199c59c90be3/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Application/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-percent-23.0.1_20c6a6adc93a88dea0d04016bd7a0db84ff204e5/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Application/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-23.0.1_509700b9df1eea9c8b1aeb99c968c1bdd0b93e5c/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-fitness-10.0.1_3d6e3d83076bc83a0e6cde9ddc130f81966370d8/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Application/build/intermediates/transforms/dex/debug/folders/1000/5/slice_5/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.0.1_d3b3a0f07b54228b6098e80af78ef005948e6a2d/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Application/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_b03d5d0336518e16c5fe2c6f2f2094521386a077/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Application/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Application/build/intermediates/transforms/dex/debug/folders/1000/5/slice_6/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Application/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Application/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_0094b4216e042529a1750aa4758b260ac57756ec/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-location-10.0.1_5dba58ffe385b5b8c6f9886c2d0ca92fdaa74cee/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Application/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_a7af754b55728bad02e40d31573f432b90e9fd13/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-10.0.1_7f43703e85ac8a8a730a7e36d892fe1b473ccdb7/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Application/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_9b92006cf4a68dc5b8e1502bf2846bc61f5bbdf7/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.0.1_c4a021593c417e3745b59b06964fb70b9936e3b1/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.0.1_b1e42311ec6f2177db671b760e1253ec201c28a5/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.0.1_9610648864a7085c8fe314214866b195650b9425/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Application/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.0.1_4e8f4aa8d677466dadde6e00398979daba37fb6b/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-cardview-v7-25.0.1_79830defebc9d02fbfd0418cb65241236f5cef3b/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Application/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_4be88ad59cae4946f55b41050eb2a2eb503ffddc/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tasks-10.0.1_d259d9080a8093c230a36ebb4f72b52d7609e3d7/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Application/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_80ada1dd00974ab96d63f0948b569c4f2383b69c/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.0.1_a1fd27166125274157d9625ae4376297a35526e0/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Application/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_30f732beb7c38e1c08d509e5ac01fe439341e1b3/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.0.1_6933ab1c9a97f03d2a921b57118c88b40fcadfec/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.0.1_f166b5800347c7c4fadec1b4359610ed93ff32bf/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.support-wearable-2.0.0_160df820f86ac7aea0dead2472578834fcdffe38/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v13-25.0.1_c504f2c33ab2641f0c72b594ae2c3f5c5906c277/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.0.1_770afed72c69c3972daf93b99fead9efa18401b3/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-10.0.1_4c2a1558654976c1db7bb613b2765013f022ee40/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Application/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_101719c22de6644a869baa8040a279bd2919488b/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wearable-10.0.1_5f089219f8e79e4cb4db855be542cba7fb464c5c/classes.dex"
+        type="DEX" />
+
+    <build
+        timestamp="1497579060377"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Application/build/outputs/apk/Application-debug.apk"
+            type="MAIN" />
+    </build>
+    <build
+        timestamp="2184229622945"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Application/build/intermediates/transforms/dex/debug/folders/1000/5/slice_9/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Application/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Application/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Application/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.0.1_6fc19cff57fe1c7b70945151929f199c59c90be3/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Application/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-percent-23.0.1_20c6a6adc93a88dea0d04016bd7a0db84ff204e5/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Application/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-23.0.1_509700b9df1eea9c8b1aeb99c968c1bdd0b93e5c/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-fitness-10.0.1_3d6e3d83076bc83a0e6cde9ddc130f81966370d8/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Application/build/intermediates/transforms/dex/debug/folders/1000/5/slice_5/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.0.1_d3b3a0f07b54228b6098e80af78ef005948e6a2d/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Application/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_b03d5d0336518e16c5fe2c6f2f2094521386a077/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Application/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Application/build/intermediates/transforms/dex/debug/folders/1000/5/slice_6/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Application/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Application/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_0094b4216e042529a1750aa4758b260ac57756ec/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-location-10.0.1_5dba58ffe385b5b8c6f9886c2d0ca92fdaa74cee/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Application/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_a7af754b55728bad02e40d31573f432b90e9fd13/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-10.0.1_7f43703e85ac8a8a730a7e36d892fe1b473ccdb7/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Application/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_9b92006cf4a68dc5b8e1502bf2846bc61f5bbdf7/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.0.1_c4a021593c417e3745b59b06964fb70b9936e3b1/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.0.1_b1e42311ec6f2177db671b760e1253ec201c28a5/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.0.1_9610648864a7085c8fe314214866b195650b9425/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Application/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.0.1_4e8f4aa8d677466dadde6e00398979daba37fb6b/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-cardview-v7-25.0.1_79830defebc9d02fbfd0418cb65241236f5cef3b/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Application/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_4be88ad59cae4946f55b41050eb2a2eb503ffddc/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tasks-10.0.1_d259d9080a8093c230a36ebb4f72b52d7609e3d7/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Application/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_80ada1dd00974ab96d63f0948b569c4f2383b69c/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.0.1_a1fd27166125274157d9625ae4376297a35526e0/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Application/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_30f732beb7c38e1c08d509e5ac01fe439341e1b3/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.0.1_6933ab1c9a97f03d2a921b57118c88b40fcadfec/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.0.1_f166b5800347c7c4fadec1b4359610ed93ff32bf/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.support-wearable-2.0.0_160df820f86ac7aea0dead2472578834fcdffe38/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v13-25.0.1_c504f2c33ab2641f0c72b594ae2c3f5c5906c277/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.0.1_770afed72c69c3972daf93b99fead9efa18401b3/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-10.0.1_4c2a1558654976c1db7bb613b2765013f022ee40/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Application/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_101719c22de6644a869baa8040a279bd2919488b/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wearable-10.0.1_5f089219f8e79e4cb4db855be542cba7fb464c5c/classes.dex"
+            type="DEX" />
+    </build>
+
+</instant-run>

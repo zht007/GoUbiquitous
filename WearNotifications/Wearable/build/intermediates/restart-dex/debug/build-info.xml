@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86"
+    api-level="25"
+    density="hdpi"
+    format="8"
+    plugin-version="2.2.3"
+    timestamp="103619324495637"
+    token="-6095873257983888084"
+    verifier="COLD_SWAP_REQUESTED" >
+
+    <task
+        name="javac"
+        duration="0" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="0" />
+    <task
+        name="verifier"
+        duration="0" />
+
+    <build
+        timestamp="102700288786310"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WearNotifications/Wearable/build/outputs/apk/Wearable-debug.apk"
+            type="MAIN" />
+    </build>
+    <build
+        timestamp="103619324495637"
+        verifier="COLD_SWAP_REQUESTED" />
+
+</instant-run>

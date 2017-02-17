@@ -1,0 +1,7 @@
+#Thu Feb 16 16:37:23 GMT 2017
+base.0=/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Wearable/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_ad64bddf111ce2d4abf4c772c6717b8265217601
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Wearable/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_ea3dbb50249496109cb3aae2b3daefb2edc83b25/classes.dex
+base.1=/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Wearable/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_ea3dbb50249496109cb3aae2b3daefb2edc83b25
+file.0=/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/WatchFace/Wearable/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_ad64bddf111ce2d4abf4c772c6717b8265217601/classes.dex

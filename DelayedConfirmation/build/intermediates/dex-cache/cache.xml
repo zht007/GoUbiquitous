@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-10.0.1_1b7690053073bde1fdb18b7bf86a5cc7c61cb38d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
+        <dex dex="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.0.1_9445446cc64f0a7820a656828f895f96352869e0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hongtao/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.1/support-annotations-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
+        <dex dex="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.0.1_4e8f4aa8d677466dadde6e00398979daba37fb6b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/build/intermediates/exploded-aar/com.android.support/support-v13/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cfb91ea7c6890336890ccb42767041af6b863e32">
+        <dex dex="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_f7a3aaf5c684b01e9dabb95e52c74716b59cd496/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.0.1_b0ba7f0e8574025cb8e7c7f43ffd1233784bd0f9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="408a599ac77cd17fe8e8919326bec617b3d005bd">
+        <dex dex="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wearable-10.0.1_c0627bfeb32802b16a1487a7a27b56ff6f6e09e8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_ddc559ee66b3351f3666cd550fb8d6215332bea9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_8da17a6ed91fe8eaf4e33162a30876ad78729040/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4356e230a981d1bbf047d848b91bc0d9b7c5bacc">
+        <dex dex="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-23.0.1_6cd7841777f08ec6f56d2f6eb0447fc734f685d3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tasks-10.0.1_3b30eb4b2bbc40d0eacba34b7265ae958bd053fe/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_34ae3a94532071eeed99a3eae6af745969a03fe4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
+        <dex dex="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.0.1_b5a999abee07ce0886671a9d5b3c803d96fc8c03/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/build/intermediates/exploded-aar/com.android.support/support-v13/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9abf11d546d9e0ee82da86df608ced7a961b76ac">
+        <dex dex="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v13-25.0.1_e9d636e7e929f17c9d352c738fce6220f858f3dc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_03eca76bbfe570e62c5697d4e7f380dc9754cc8a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7f552e18169902e907b20e3c14831d1c95e35447">
+        <dex dex="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_a43e312ea061d488c8a88d668f1900f1094b9e34/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_28db22d148fecc39c8945f3adf42b43d44be9a7e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
+        <dex dex="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-10.0.1_6f4b8a551fea7a66aac5ae816f6928ab57009bf7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
+        <dex dex="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.0.1_9077c77cc4a320636f45ad4ed16ff1327713c9e6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e511e59929647be98bb8ad4335c494687de2040f">
+        <dex dex="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_dce8e48b2c7c725266b312e388a5745e787c9eab/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.0.1_eade1b5beb1b35d3e99dd16775e125f41328e8b9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/build/intermediates/exploded-aar/com.google.android.support/wearable/2.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d4d699dd197929286d19b015f4c142b8360f2137">
+        <dex dex="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.support-wearable-2.0.0_4fec5305c4b53a2b6350c8bc1f016b0833f62193/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
+        <dex dex="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.0.1_6103030ffd6f1e04fd4939ab2554c3ecd1625c7b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/build/intermediates/exploded-aar/com.android.support/percent/23.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cddfbb68753c7b1222ffb7af97bfd9ecf413aba7">
+        <dex dex="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-percent-23.0.1_4aefc574d7d72f788d43e3540504ef9bb99abf66/classes.dex" />
+    </item>
+
+</items>

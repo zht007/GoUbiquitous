@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86"
+    api-level="25"
+    density="hdpi"
+    format="8"
+    plugin-version="2.2.3"
+    timestamp="804739589894"
+    token="-3790745656925474001"
+    verifier="FULL_BUILD_REQUESTED" >
+
+    <task
+        name="javac"
+        duration="6130" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="3291" />
+    <task
+        name="verifier"
+        duration="276" />
+
+    <artifact
+        location="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/build/outputs/apk/Wearable-debug.apk"
+        type="MAIN" />
+
+    <build
+        timestamp="804739589894"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DelayedConfirmation/Wearable/build/outputs/apk/Wearable-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>
