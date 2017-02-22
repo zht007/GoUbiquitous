@@ -1,44 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="arm64-v8a,armeabi-v7a,armeabi"
+    abi="armeabi-v7a,armeabi"
     api-level="23"
     density="xxhdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="71854431159197"
+    timestamp="120439750888536"
     token="-8718708545077634124"
-    verifier="COLD_SWAP_REQUESTED" >
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="444" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="65" />
+        duration="0" />
     <task
         name="verifier"
-        duration="1" />
+        duration="0" />
 
     <artifact
-        location="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/BasicNotifications/Application/build/intermediates/transforms/dex/debug/folders/1000/5/slice_6/classes.dex"
-        type="DEX" />
+        location="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/BasicNotifications/Application/build/outputs/apk/Application-debug.apk"
+        type="MAIN" />
 
     <build
-        timestamp="71270915309273"
+        timestamp="120439750888536"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/BasicNotifications/Application/build/outputs/apk/Application-debug.apk"
             type="MAIN" />
-    </build>
-    <build
-        timestamp="71854431159197"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/BasicNotifications/Application/build/intermediates/transforms/dex/debug/folders/1000/5/slice_6/classes.dex"
-            type="DEX" />
     </build>
 
 </instant-run>

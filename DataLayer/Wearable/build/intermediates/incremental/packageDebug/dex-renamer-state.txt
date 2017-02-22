@@ -1,4 +1,4 @@
-#Wed Feb 15 17:20:09 GMT 2017
+#Wed Feb 22 16:18:48 GMT 2017
 base.0=/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Wearable/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_5ba91593a81a0719af2cd49d7033024dcea96aeb
 renamed.1=classes.dex
 renamed.0=classes2.dex

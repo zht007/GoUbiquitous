@@ -12,15 +12,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Application/build/intermediates/exploded-aar/com.android.support/support-v13/25.0.1/jars/libs/internal_impl-25.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="cfb91ea7c6890336890ccb42767041af6b863e32">
-        <dex dex="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Application/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_87bdc7505a425d8f55058e12254c5bc42f981767/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Wearable/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -36,6 +27,15 @@
         revision="25.0.2"
         sha1="cfb91ea7c6890336890ccb42767041af6b863e32">
         <dex dex="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Wearable/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_df3489a45f89e6870504207c7ea10ac631390625/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Application/build/intermediates/exploded-aar/com.android.support/support-v13/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cfb91ea7c6890336890ccb42767041af6b863e32">
+        <dex dex="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Application/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_87bdc7505a425d8f55058e12254c5bc42f981767/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -70,7 +70,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="8cb2c5ef7d500f1e802a38c14b492a3d795f45a7">
+        sha1="c23c7369723d32734e0b415242d990315c67dbca">
         <dex dex="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Wearable/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_ab03c9d7d51677c66e90f0ee35547f0465f49425/classes.dex" />
     </item>
     <item
@@ -142,7 +142,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="f9a958290a7d2c9ee0d964f85965de3d6079745d">
+        sha1="a683e646cc88d2f3a9c3041a957cf36a2b450894">
         <dex dex="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Wearable/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_5ba91593a81a0719af2cd49d7033024dcea96aeb/classes.dex" />
     </item>
     <item
@@ -210,21 +210,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Application/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="9d72f6b378134a98723e98754c9a218a48c8e89d">
-        <dex dex="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Application/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_da5ebd86a164e854b065539f163378c0f7e23328/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Wearable/build/intermediates/exploded-aar/com.android.support/support-v13/25.0.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="9abf11d546d9e0ee82da86df608ced7a961b76ac">
         <dex dex="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Wearable/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v13-25.0.1_6bc1569d2c5a12738709a316efa3bf7e187fcf8b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Application/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9d72f6b378134a98723e98754c9a218a48c8e89d">
+        <dex dex="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Application/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_da5ebd86a164e854b065539f163378c0f7e23328/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -237,21 +237,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Application/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
-        <dex dex="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.0.1_d54e4e7d03a32843fdf3928294fb8042dfc431da/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Wearable/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
         <dex dex="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Wearable/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.0.1_d358a55830b057d1327eee63e57030f4a9d2d685/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Application/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
+        <dex dex="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.0.1_d54e4e7d03a32843fdf3928294fb8042dfc431da/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -264,21 +264,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Application/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
-        <dex dex="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.0.1_cf8091f55ead39934ee2d4be68fe4ea8c310d18f/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Wearable/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.0.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="4356e230a981d1bbf047d848b91bc0d9b7c5bacc">
         <dex dex="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Wearable/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-23.0.1_45eccfde747887328f5e7b9f1de79ccdcf1795b3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Application/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
+        <dex dex="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.0.1_cf8091f55ead39934ee2d4be68fe4ea8c310d18f/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -336,21 +336,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Application/build/intermediates/exploded-aar/com.android.support/support-v13/25.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="9abf11d546d9e0ee82da86df608ced7a961b76ac">
-        <dex dex="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v13-25.0.1_f81acea9f190c7e5ae44452c01d6cb3b529fa325/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.0.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
         <dex dex="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Wearable/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tasks-10.0.1_12089611c0a2b9c921104a3fdee4fdb4b5da766d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Application/build/intermediates/exploded-aar/com.android.support/support-v13/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9abf11d546d9e0ee82da86df608ced7a961b76ac">
+        <dex dex="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v13-25.0.1_f81acea9f190c7e5ae44452c01d6cb3b529fa325/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -390,21 +390,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Application/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
-        <dex dex="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tasks-10.0.1_7341dc2fc42d8b80901aa94ed4ae7176416d3812/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/10.0.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="408a599ac77cd17fe8e8919326bec617b3d005bd">
         <dex dex="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Wearable/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wearable-10.0.1_aadbc15c1d274fdf18037fa89a4cabcec20973cc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Application/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tasks-10.0.1_7341dc2fc42d8b80901aa94ed4ae7176416d3812/classes.dex" />
     </item>
     <item
         is-multidex="true"

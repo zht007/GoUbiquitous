@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Wed Feb 15 17:20:09 GMT 2017
+#Wed Feb 22 16:18:49 GMT 2017
 122.file=/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Wearable/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3/classes.dex
 60.set=ANDROID_RESOURCE
 52.set=DEX
@@ -40,9 +40,9 @@
 89.set=ANDROID_RESOURCE
 112.file=/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Wearable/build/intermediates/res/resources-debug.ap_/res/drawable-hdpi-v4/common_google_signin_btn_text_dark_normal.9.png
 122.base=/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Wearable/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3
-21.file=/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Wearable/build/intermediates/res/resources-debug.ap_/res/color-v21/btn_colored_background_material.xml
+21.file=/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Wearable/build/intermediates/res/resources-debug.ap_/res/layout/discovery_fragment.xml
 119.file=/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Wearable/build/intermediates/res/resources-debug.ap_/res/color-v23/button_icon_color.xml
-28.file=/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Wearable/build/intermediates/res/resources-debug.ap_/res/interpolator-v21/open_on_phone_animation_interpolator_1.xml
+28.file=/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Wearable/build/intermediates/res/resources-debug.ap_/res/drawable/common_google_signin_btn_icon_dark_focused.xml
 75.file=/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Wearable/build/intermediates/res/resources-debug.ap_/res/drawable-v21/ic_cc_checkmark.xml
 8.set=ANDROID_RESOURCE
 1.base=/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Wearable/build/intermediates/res/resources-debug.ap_
@@ -75,7 +75,7 @@
 58.file=/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Wearable/build/intermediates/res/resources-debug.ap_/res/layout/navigation_drawer_item_view.xml
 68.base=/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Wearable/build/intermediates/res/resources-debug.ap_
 112.base=/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Wearable/build/intermediates/res/resources-debug.ap_
-11.file=/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Wearable/build/intermediates/res/resources-debug.ap_/res/color/circular_button.xml
+11.file=/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Wearable/build/intermediates/res/resources-debug.ap_/res/drawable-hdpi-v4/common_google_signin_btn_text_light_disabled.9.png
 21.base=/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Wearable/build/intermediates/res/resources-debug.ap_
 119.base=/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Wearable/build/intermediates/res/resources-debug.ap_
 28.base=/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Wearable/build/intermediates/res/resources-debug.ap_
@@ -94,9 +94,9 @@
 89.base=/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Wearable/build/intermediates/res/resources-debug.ap_
 111.file=/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Wearable/build/intermediates/res/resources-debug.ap_/res/drawable-hdpi-v4/card_frame_pressed.9.png
 121.base=/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Wearable/build/intermediates/res/resources-debug.ap_
-20.file=/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Wearable/build/intermediates/res/resources-debug.ap_/res/layout/discovery_fragment.xml
+20.file=/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Wearable/build/intermediates/res/resources-debug.ap_/res/color-v21/btn_colored_background_material.xml
 118.file=/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Wearable/build/intermediates/res/resources-debug.ap_/res/drawable/common_google_signin_btn_icon_dark.xml
-27.file=/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Wearable/build/intermediates/res/resources-debug.ap_/res/drawable/common_google_signin_btn_icon_dark_focused.xml
+27.file=/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Wearable/build/intermediates/res/resources-debug.ap_/res/interpolator-v21/open_on_phone_animation_interpolator_1.xml
 74.file=/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Wearable/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-23.0.1_45eccfde747887328f5e7b9f1de79ccdcf1795b3/classes.dex
 6.set=ANDROID_RESOURCE
 34.file=/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Wearable/build/intermediates/res/resources-debug.ap_/res/layout/single_page_nav_drawer_7_item.xml
@@ -126,12 +126,12 @@
 104.base=/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Wearable/build/intermediates/res/resources-debug.ap_
 5.set=JAVA_RESOURCE
 50.file=/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Wearable/build/intermediates/res/resources-debug.ap_/res/layout/single_page_nav_drawer_3_item.xml
-57.file=/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Wearable/build/intermediates/res/resources-debug.ap_/res/drawable-hdpi-v4/common_google_signin_btn_text_light_normal.9.png
+57.file=/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Wearable/build/intermediates/res/resources-debug.ap_/res/layout-v21/overlay_confirmation.xml
 126.set=ANDROID_RESOURCE
 67.base=/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Wearable/build/intermediates/res/resources-debug.ap_
 118.set=ANDROID_RESOURCE
 111.base=/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Wearable/build/intermediates/res/resources-debug.ap_
-10.file=/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Wearable/build/intermediates/res/resources-debug.ap_/res/drawable-hdpi-v4/common_google_signin_btn_text_light_disabled.9.png
+10.file=/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Wearable/build/intermediates/res/resources-debug.ap_/res/color/circular_button.xml
 20.base=/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Wearable/build/intermediates/res/resources-debug.ap_
 118.base=/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Wearable/build/intermediates/res/resources-debug.ap_
 27.base=/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Wearable/build/intermediates/res/resources-debug.ap_
@@ -178,13 +178,13 @@
 10.base=/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Wearable/build/intermediates/res/resources-debug.ap_
 42.file=/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Wearable/build/intermediates/res/resources-debug.ap_/res/layout/main_activity.xml
 5.file=/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Wearable/build/intermediates/transforms/mergeJavaRes/debug/jars/2/1f/main.jar/build-data.properties
-49.file=/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Wearable/build/intermediates/res/resources-debug.ap_/res/drawable/rounded_background.xml
-96.file=/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Wearable/build/intermediates/res/resources-debug.ap_/res/drawable-v21/ic_cc_clear.xml
+49.file=/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Wearable/build/intermediates/res/resources-debug.ap_/res/drawable-hdpi-v4/common_google_signin_btn_icon_light_disabled.9.png
+96.file=/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Wearable/build/intermediates/res/resources-debug.ap_/res/drawable-v23/ic_cc_settings_button_center.xml
 103.base=/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Wearable/build/intermediates/res/resources-debug.ap_
 3.set=ANDROID_RESOURCE
 124.set=ANDROID_RESOURCE
 19.base=/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Wearable/build/intermediates/transforms/mergeJavaRes/debug/jars/2/1f/main.jar
-56.file=/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Wearable/build/intermediates/res/resources-debug.ap_/res/layout-v21/overlay_confirmation.xml
+56.file=/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Wearable/build/intermediates/res/resources-debug.ap_/res/drawable-hdpi-v4/common_google_signin_btn_text_light_normal.9.png
 116.set=DEX
 66.base=/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Wearable/build/intermediates/res/resources-debug.ap_
 108.set=ANDROID_RESOURCE
@@ -216,7 +216,7 @@
 123.set=ANDROID_RESOURCE
 115.set=ANDROID_RESOURCE
 107.set=DEX
-32.file=/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Wearable/build/intermediates/res/resources-debug.ap_/res/drawable-hdpi-v4/common_full_open_on_phone.png
+32.file=/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Wearable/build/intermediates/res/resources-debug.ap_/res/drawable-v23/ic_more_horiz_24dp_wht.xml
 42.base=/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Wearable/build/intermediates/res/resources-debug.ap_
 39.file=/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Wearable/build/intermediates/res/resources-debug.ap_/res/drawable/common_google_signin_btn_icon_light.xml
 5.base=/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Wearable/build/intermediates/transforms/mergeJavaRes/debug/jars/2/1f/main.jar
@@ -234,9 +234,9 @@
 58.set=ANDROID_RESOURCE
 41.file=/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Wearable/build/intermediates/res/resources-debug.ap_/res/color/card_grey_text_color.xml
 4.file=/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Wearable/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_676406b2d778b6e2c2b3f8405591ef748bae80ea/classes.dex
-48.file=/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Wearable/build/intermediates/res/resources-debug.ap_/res/drawable-hdpi-v4/common_google_signin_btn_icon_light_disabled.9.png
+48.file=/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Wearable/build/intermediates/res/resources-debug.ap_/res/drawable/rounded_background.xml
 16.base=/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Wearable/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-10.0.1_d6b3af6b806d7280f48362435a345910097ada28
-95.file=/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Wearable/build/intermediates/res/resources-debug.ap_/res/drawable-v23/ic_cc_settings_button_center.xml
+95.file=/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Wearable/build/intermediates/res/resources-debug.ap_/res/drawable-v21/ic_cc_clear.xml
 1.set=ANDROID_RESOURCE
 102.base=/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Wearable/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2
 122.set=DEX
@@ -274,7 +274,7 @@ count=127
 78.file=/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Wearable/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.0.1_4e8f4aa8d677466dadde6e00398979daba37fb6b/classes.dex
 113.set=ANDROID_RESOURCE
 105.set=ANDROID_RESOURCE
-31.file=/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Wearable/build/intermediates/res/resources-debug.ap_/res/drawable-v23/ic_more_horiz_24dp_wht.xml
+31.file=/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Wearable/build/intermediates/res/resources-debug.ap_/res/drawable-hdpi-v4/common_full_open_on_phone.png
 41.base=/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Wearable/build/intermediates/res/resources-debug.ap_
 38.file=/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Wearable/build/intermediates/res/resources-debug.ap_/res/interpolator-v21/generic_confirmation_animation_interpolator_0.xml
 4.base=/Users/hongtao/Dropbox/MyApplication/UdacityProjects/ud851-Sunshine/DataLayer/Wearable/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_676406b2d778b6e2c2b3f8405591ef748bae80ea

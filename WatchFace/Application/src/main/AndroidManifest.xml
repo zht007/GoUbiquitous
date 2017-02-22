@@ -30,6 +30,10 @@
     <!-- Location permission used by FitDistanceWatchFaceService -->
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
+    <!-- permission to receive complication data and open the provider chooser -->
+    <uses-permission android:name="com.google.android.wearable.permission.RECEIVE_COMPLICATION_DATA"/>
+
+
     <!-- All intent-filters for config actions must include the categories
         com.google.android.wearable.watchface.category.COMPANION_CONFIGURATION and
         android.intent.category.DEFAULT. -->
