@@ -10,11 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="383f3666-22ca-45c6-bba2-f851ece974fb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../S12.04-Solution-ResourceQualifiers/sunshinewear/src/main/java/com/example/android/sunshine/SunshineWatchLisenerService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../S12.04-Solution-ResourceQualifiers/sunshinewear/src/main/res/drawable-nodpi/preview_digital_circular.png" afterPath="$PROJECT_DIR$/../S12.04-Solution-ResourceQualifiers/sunshinewear/src/main/res/drawable-nodpi/preview_digital_circular.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DataLayer/.idea/misc.xml" afterPath="$PROJECT_DIR$/../DataLayer/.idea/misc.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../S12.04-Solution-ResourceQualifiers/sunshinewear/src/main/java/com/example/android/sunshine/SunshineWatchLisenerService.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DataLayer/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../DataLayer/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../S12.04-Solution-ResourceQualifiers/app/build.gradle" afterPath="$PROJECT_DIR$/../S12.04-Solution-ResourceQualifiers/app/build.gradle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../S12.04-Solution-ResourceQualifiers/app/src/main/java/com/example/android/sunshine/DetailActivity.java" afterPath="$PROJECT_DIR$/../S12.04-Solution-ResourceQualifiers/app/src/main/java/com/example/android/sunshine/DetailActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../S12.04-Solution-ResourceQualifiers/sunshinewear/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/../S12.04-Solution-ResourceQualifiers/sunshinewear/src/main/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../S12.04-Solution-ResourceQualifiers/sunshinewear/src/main/java/com/example/android/sunshine/SunshineWatchFace.java" afterPath="$PROJECT_DIR$/../S12.04-Solution-ResourceQualifiers/sunshinewear/src/main/java/com/example/android/sunshine/SunshineWatchFace.java" />
@@ -51,11 +48,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DigitalWatchFaceService.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DigitalWatchFaceService.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Wearable/src/main/java/com/example/android/wearable/watchface/DigitalWatchFaceService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="670">
-              <caret line="611" column="24" selection-start-line="611" selection-start-column="24" selection-end-line="611" selection-end-column="24" />
+            <state relative-caret-position="354">
+              <caret line="167" column="16" selection-start-line="167" selection-start-column="16" selection-end-line="167" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -63,11 +60,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CanvasWatchFaceService.class" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CanvasWatchFaceService.class" pinned="false" current-in-tab="false">
         <entry file="jar://$PROJECT_DIR$/Application/build/intermediates/exploded-aar/com.google.android.support/wearable/2.0.0/jars/classes.jar!/android/support/wearable/watchface/CanvasWatchFaceService.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="86" column="0" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
+            <state relative-caret-position="165">
+              <caret line="14" column="23" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -3520,21 +3517,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Wearable/src/main/java/com/example/android/wearable/watchface/DigitalWatchFaceService.java">
+    <entry file="jar://$PROJECT_DIR$/Application/build/intermediates/exploded-aar/com.google.android.support/wearable/2.0.0/jars/classes.jar!/android/support/wearable/watchface/CanvasWatchFaceService.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="670">
-          <caret line="611" column="24" selection-start-line="611" selection-start-column="24" selection-end-line="611" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="165">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/Application/build/intermediates/exploded-aar/com.google.android.support/wearable/2.0.0/jars/classes.jar!/android/support/wearable/watchface/CanvasWatchFaceService.class">
+    <entry file="file://$PROJECT_DIR$/Wearable/src/main/java/com/example/android/wearable/watchface/DigitalWatchFaceService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="86" column="0" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="354">
+          <caret line="167" column="16" selection-start-line="167" selection-start-column="16" selection-end-line="167" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

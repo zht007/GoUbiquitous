@@ -64,7 +64,7 @@ public class DetailActivity extends AppCompatActivity implements
     private GoogleApiClient mGoogleApiClient;
     public static final String WEARABLE_PATH = "/wearable";
     private String mMessage = "hello world";
-    private int mCount = 5;
+    private int mCount = 1;
 
     /*
      * In this Activity, you can share the selected day's forecast. No social sharing is complete

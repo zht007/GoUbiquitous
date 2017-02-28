@@ -56,7 +56,6 @@ import java.util.Locale;
 import java.util.TimeZone;
 import java.util.concurrent.TimeUnit;
 
-import static com.example.android.sunshine.SunshineWatchLisenerService.LOGD;
 
 /**
  * Digital watch face with seconds. In ambient mode, the seconds aren't displayed. On devices with
@@ -80,6 +79,8 @@ public class SunshineWatchFace extends CanvasWatchFaceService {
      */
     private static final int MSG_UPDATE_TIME = 0;
 
+    public static final String WEARABLE_PATH = "/wearable";
+    private static final String WEARABLE_KEY = "com.hongtao.key.weather";
 
     @Override
     public Engine onCreateEngine() {
@@ -368,21 +369,21 @@ public class SunshineWatchFace extends CanvasWatchFaceService {
 
         @Override
         public void onDataChanged(DataEventBuffer dataEvents) {
-            LOGD(LOG_TAG, "onDataChanged(): " + dataEvents);
+            Log.v(LOG_TAG, "onDataChanged(): " + dataEvents);
 
             for (DataEvent event : dataEvents) {
                 if (event.getType() == DataEvent.TYPE_CHANGED) {
                     String path = event.getDataItem().getUri().getPath();
-                    if (SunshineWatchLisenerService.WEARABLE_PATH.equals(path)) {
+                    if (WEARABLE_PATH.equals(path)) {
                         DataMapItem dataMapItem = DataMapItem.fromDataItem(event.getDataItem());
                         mMessage = dataMapItem.getDataMap()
-                                .getString(SunshineWatchLisenerService.WEARABLE_KEY);
+                                .getString(WEARABLE_KEY);
                         invalidate();
                         Log.v(LOG_TAG,"message received from the phone: "+ mMessage);
 
 
                     } else {
-                        LOGD(LOG_TAG, "Unrecognized path: " + path);
+                        Log.d(LOG_TAG, "Unrecognized path: " + path);
                     }
 
                 }
