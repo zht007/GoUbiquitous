@@ -17,8 +17,11 @@ package com.example.android.sunshine;
 
 import android.content.Context;
 import android.database.Cursor;
+import android.os.Bundle;
 import android.support.annotation.NonNull;
+import android.support.annotation.Nullable;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -27,12 +30,27 @@ import android.widget.TextView;
 
 import com.example.android.sunshine.utilities.SunshineDateUtils;
 import com.example.android.sunshine.utilities.SunshineWeatherUtils;
+import com.google.android.gms.common.ConnectionResult;
+import com.google.android.gms.common.api.GoogleApiClient;
+import com.google.android.gms.common.api.ResultCallback;
+import com.google.android.gms.wearable.DataApi;
+import com.google.android.gms.wearable.DataEvent;
+import com.google.android.gms.wearable.DataEventBuffer;
+import com.google.android.gms.wearable.DataItem;
+import com.google.android.gms.wearable.DataMap;
+import com.google.android.gms.wearable.DataMapItem;
+import com.google.android.gms.wearable.PutDataMapRequest;
+import com.google.android.gms.wearable.PutDataRequest;
+import com.google.android.gms.wearable.Wearable;
 
 /**
  * {@link ForecastAdapter} exposes a list of weather forecasts
  * from a {@link android.database.Cursor} to a {@link android.support.v7.widget.RecyclerView}.
  */
-class ForecastAdapter extends RecyclerView.Adapter<ForecastAdapter.ForecastAdapterViewHolder> {
+class ForecastAdapter extends RecyclerView.Adapter<ForecastAdapter.ForecastAdapterViewHolder> implements
+        DataApi.DataListener,
+        GoogleApiClient.ConnectionCallbacks,
+        GoogleApiClient.OnConnectionFailedListener{
 
     private static final int VIEW_TYPE_TODAY = 0;
     private static final int VIEW_TYPE_FUTURE_DAY = 1;
@@ -47,6 +65,52 @@ class ForecastAdapter extends RecyclerView.Adapter<ForecastAdapter.ForecastAdapt
      * an item is clicked in the list.
      */
     final private ForecastAdapterOnClickHandler mClickHandler;
+
+    private final String TAG = ForecastAdapter.class.getSimpleName();
+    private GoogleApiClient mGoogleApiClient;
+    public static final String WEARABLE_PATH = "/wearable";
+    private String mMessage = "hello world";
+    private static final String WEARABLE_KEY = "com.hongtao.key.weather";
+
+    @Override
+    public void onConnected(@Nullable Bundle bundle) {
+        Wearable.DataApi.addListener(mGoogleApiClient, this);
+
+    }
+
+    @Override
+    public void onConnectionSuspended(int i) {
+
+    }
+
+    @Override
+    public void onConnectionFailed(@NonNull ConnectionResult connectionResult) {
+
+    }
+
+    @Override
+    public void onDataChanged(DataEventBuffer dataEvents) {
+        for (DataEvent dataEvent : dataEvents) {
+            if (dataEvent.getType() != DataEvent.TYPE_CHANGED) {
+                continue;
+            }
+
+            DataItem dataItem = dataEvent.getDataItem();
+            if (!dataItem.getUri().getPath().equals(
+                    WEARABLE_PATH)) {
+                continue;
+            }
+
+            DataMapItem dataMapItem = DataMapItem.fromDataItem(dataItem);
+            DataMap config = dataMapItem.getDataMap();
+            if (Log.isLoggable(TAG, Log.DEBUG)) {
+                Log.d(TAG, "Config DataItem updated:" + config);
+            }
+            updateData();
+        }
+
+
+    }
 
     /**
      * The interface that receives onClick messages.
@@ -94,6 +158,13 @@ class ForecastAdapter extends RecyclerView.Adapter<ForecastAdapter.ForecastAdapt
 
         int layoutId;
 
+        mGoogleApiClient = new GoogleApiClient.Builder(mContext)
+                .addApi(Wearable.API)
+                .addConnectionCallbacks(this)
+                .addOnConnectionFailedListener(this)
+                .build();
+        mGoogleApiClient.connect();
+
         switch (viewType) {
 
             case VIEW_TYPE_TODAY: {
@@ -113,6 +184,7 @@ class ForecastAdapter extends RecyclerView.Adapter<ForecastAdapter.ForecastAdapt
         View view = LayoutInflater.from(mContext).inflate(layoutId, viewGroup, false);
 
         view.setFocusable(true);
+
 
         return new ForecastAdapterViewHolder(view);
     }
@@ -197,6 +269,7 @@ class ForecastAdapter extends RecyclerView.Adapter<ForecastAdapter.ForecastAdapt
         forecastAdapterViewHolder.highTempView.setText(highString);
         forecastAdapterViewHolder.highTempView.setContentDescription(highA11y);
 
+
         /*************************
          * Low (min) temperature *
          *************************/
@@ -213,6 +286,11 @@ class ForecastAdapter extends RecyclerView.Adapter<ForecastAdapter.ForecastAdapt
          /* Set the text and content description (for accessibility purposes) */
         forecastAdapterViewHolder.lowTempView.setText(lowString);
         forecastAdapterViewHolder.lowTempView.setContentDescription(lowA11y);
+
+        if(viewType == VIEW_TYPE_TODAY){
+            mMessage = highString + " " + lowString;
+            sendToWearable();
+        }
     }
 
     /**
@@ -272,6 +350,10 @@ class ForecastAdapter extends RecyclerView.Adapter<ForecastAdapter.ForecastAdapt
         final TextView highTempView;
         final TextView lowTempView;
 
+
+
+
+
         ForecastAdapterViewHolder(View view) {
             super(view);
 
@@ -280,6 +362,8 @@ class ForecastAdapter extends RecyclerView.Adapter<ForecastAdapter.ForecastAdapt
             descriptionView = (TextView) view.findViewById(R.id.weather_description);
             highTempView = (TextView) view.findViewById(R.id.high_temperature);
             lowTempView = (TextView) view.findViewById(R.id.low_temperature);
+
+
 
             view.setOnClickListener(this);
         }
@@ -298,5 +382,27 @@ class ForecastAdapter extends RecyclerView.Adapter<ForecastAdapter.ForecastAdapt
             long dateInMillis = mCursor.getLong(MainActivity.INDEX_WEATHER_DATE);
             mClickHandler.onClick(dateInMillis);
         }
+    }
+
+    private void sendToWearable() {
+        PutDataMapRequest putDataMapReq = PutDataMapRequest.create(WEARABLE_PATH);
+        putDataMapReq.getDataMap().putString(WEARABLE_KEY, mMessage);
+        PutDataRequest putDataReq = putDataMapReq.asPutDataRequest();
+        putDataReq.setUrgent();
+
+        Wearable.DataApi.putDataItem(mGoogleApiClient,putDataReq)
+                .setResultCallback(new ResultCallback<DataApi.DataItemResult>() {
+                    @Override
+                    public void onResult(@NonNull DataApi.DataItemResult dataItemResult) {
+                        Log.v(TAG, "Sending message from ForecastAdapter was successful: " + dataItemResult.getStatus()
+                                .isSuccess());
+
+                    }
+                });
+    }
+
+    private void updateData() {
+
+        Log.v(TAG,"data changed: " + mMessage);
     }
 }

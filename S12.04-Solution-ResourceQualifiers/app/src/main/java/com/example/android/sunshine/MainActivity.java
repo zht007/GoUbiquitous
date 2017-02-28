@@ -50,19 +50,13 @@ import com.google.android.gms.wearable.PutDataMapRequest;
 import com.google.android.gms.wearable.PutDataRequest;
 import com.google.android.gms.wearable.Wearable;
 
+import static com.example.android.sunshine.ForecastAdapter.WEARABLE_PATH;
+
 public class MainActivity extends AppCompatActivity implements
         LoaderManager.LoaderCallbacks<Cursor>,
-        ForecastAdapter.ForecastAdapterOnClickHandler,
-        DataApi.DataListener,
-        GoogleApiClient.ConnectionCallbacks,
-        GoogleApiClient.OnConnectionFailedListener{
+        ForecastAdapter.ForecastAdapterOnClickHandler{
 
     private final String TAG = MainActivity.class.getSimpleName();
-    private GoogleApiClient mGoogleApiClient;
-    public static final String WEARABLE_PATH = "/wearable";
-    private String mMessage = "hello world";
-    private int mCount = 0;
-    private static final String WEARABLE_KEY = "com.hongtao.key.weather";
 
     /*
      * The columns of data that we are interested in displaying within our MainActivity's list of
@@ -101,29 +95,12 @@ public class MainActivity extends AppCompatActivity implements
 
     private ProgressBar mLoadingIndicator;
 
-    @Override
-    protected void onResume() {
-        super.onResume();
-        mGoogleApiClient.connect();
-    }
-
-    @Override
-    protected void onPause() {
-        super.onPause();
-        Wearable.DataApi.removeListener(mGoogleApiClient, this);
-        mGoogleApiClient.disconnect();
-    }
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        mGoogleApiClient = new GoogleApiClient.Builder(this)
-                .addApi(Wearable.API)
-                .addConnectionCallbacks(this)
-                .addOnConnectionFailedListener(this)
-                .build();
 
         setContentView(R.layout.activity_forecast);
         getSupportActionBar().setElevation(0f);
@@ -195,7 +172,7 @@ public class MainActivity extends AppCompatActivity implements
         getSupportLoaderManager().initLoader(ID_FORECAST_LOADER, null, this);
 
         SunshineSyncUtils.initialize(this);
-        sendToWearable();
+//        sendToWearable();
     }
 
     /**
@@ -384,67 +361,5 @@ public class MainActivity extends AppCompatActivity implements
         }
 
         return super.onOptionsItemSelected(item);
-    }
-
-    @Override
-    public void onConnected(@Nullable Bundle bundle) {
-        Wearable.DataApi.addListener(mGoogleApiClient, this);
-
-    }
-
-    @Override
-    public void onConnectionSuspended(int i) {
-
-    }
-
-    @Override
-    public void onConnectionFailed(@NonNull ConnectionResult connectionResult) {
-
-    }
-
-    @Override
-    public void onDataChanged(DataEventBuffer dataEvents) {
-        for (DataEvent dataEvent : dataEvents) {
-            if (dataEvent.getType() != DataEvent.TYPE_CHANGED) {
-                continue;
-            }
-
-            DataItem dataItem = dataEvent.getDataItem();
-            if (!dataItem.getUri().getPath().equals(
-                    WEARABLE_PATH)) {
-                continue;
-            }
-
-            DataMapItem dataMapItem = DataMapItem.fromDataItem(dataItem);
-            DataMap config = dataMapItem.getDataMap();
-            if (Log.isLoggable(TAG, Log.DEBUG)) {
-                Log.d(TAG, "Config DataItem updated:" + config);
-            }
-            updateData();
-        }
-
-    }
-
-    private void sendToWearable() {
-        PutDataMapRequest putDataMapReq = PutDataMapRequest.create(WEARABLE_PATH);
-        mCount++;
-        putDataMapReq.getDataMap().putString(WEARABLE_KEY, mMessage + mCount);
-        PutDataRequest putDataReq = putDataMapReq.asPutDataRequest();
-        putDataReq.setUrgent();
-
-        Wearable.DataApi.putDataItem(mGoogleApiClient,putDataReq)
-                .setResultCallback(new ResultCallback<DataApi.DataItemResult>() {
-                    @Override
-                    public void onResult(@NonNull DataApi.DataItemResult dataItemResult) {
-                        Log.v(TAG, "Sending message from MainActivity was successful: " + dataItemResult.getStatus()
-                                .isSuccess());
-
-                    }
-                });
-    }
-
-    private void updateData() {
-
-        Log.v(TAG,"data changed: " + mMessage + mCount);
     }
 }

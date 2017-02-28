@@ -12,10 +12,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e5fa5e90-e684-4c8b-8d1e-a61e0be6def7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../S12.04-Solution-ResourceQualifiers/app/src/main/java/com/example/android/sunshine/DetailActivity.java" afterPath="$PROJECT_DIR$/../S12.04-Solution-ResourceQualifiers/app/src/main/java/com/example/android/sunshine/DetailActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../S12.04-Solution-ResourceQualifiers/app/src/main/java/com/example/android/sunshine/ForecastAdapter.java" afterPath="$PROJECT_DIR$/../S12.04-Solution-ResourceQualifiers/app/src/main/java/com/example/android/sunshine/ForecastAdapter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../S12.04-Solution-ResourceQualifiers/app/src/main/java/com/example/android/sunshine/MainActivity.java" afterPath="$PROJECT_DIR$/../S12.04-Solution-ResourceQualifiers/app/src/main/java/com/example/android/sunshine/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WatchFace/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../WatchFace/.idea/workspace.xml" />
     </list>
     <ignored path="DataLayer.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -3026,7 +3024,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1409" y="-1057" width="1440" height="873" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
