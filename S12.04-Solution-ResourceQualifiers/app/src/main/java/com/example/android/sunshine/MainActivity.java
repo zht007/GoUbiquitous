@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity implements
     private GoogleApiClient mGoogleApiClient;
     public static final String WEARABLE_PATH = "/wearable";
     private String mMessage = "hello world";
-    private int mCount = 10;
+    private int mCount = 0;
     private static final String WEARABLE_KEY = "com.hongtao.key.weather";
 
     /*

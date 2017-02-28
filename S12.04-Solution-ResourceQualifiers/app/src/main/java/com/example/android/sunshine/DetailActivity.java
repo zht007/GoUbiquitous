@@ -20,14 +20,11 @@ import android.database.Cursor;
 import android.databinding.DataBindingUtil;
 import android.net.Uri;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
 import android.support.v4.app.LoaderManager;
 import android.support.v4.app.ShareCompat;
 import android.support.v4.content.CursorLoader;
 import android.support.v4.content.Loader;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -36,35 +33,13 @@ import com.example.android.sunshine.data.WeatherContract;
 import com.example.android.sunshine.databinding.ActivityDetailBinding;
 import com.example.android.sunshine.utilities.SunshineDateUtils;
 import com.example.android.sunshine.utilities.SunshineWeatherUtils;
-import com.google.android.gms.common.ConnectionResult;
-import com.google.android.gms.common.api.GoogleApiClient;
-import com.google.android.gms.common.api.PendingResult;
-import com.google.android.gms.common.api.ResultCallback;
-import com.google.android.gms.wearable.DataApi;
-import com.google.android.gms.wearable.DataEvent;
-import com.google.android.gms.wearable.DataEventBuffer;
-import com.google.android.gms.wearable.DataItem;
-import com.google.android.gms.wearable.DataMap;
-import com.google.android.gms.wearable.DataMapItem;
-import com.google.android.gms.wearable.PutDataMapRequest;
-import com.google.android.gms.wearable.PutDataRequest;
-import com.google.android.gms.wearable.Wearable;
 
-import static android.webkit.ConsoleMessage.MessageLevel.LOG;
 
 
 public class DetailActivity extends AppCompatActivity implements
-        LoaderManager.LoaderCallbacks<Cursor>,
-        DataApi.DataListener,
-        GoogleApiClient.ConnectionCallbacks,
-        GoogleApiClient.OnConnectionFailedListener{
+        LoaderManager.LoaderCallbacks<Cursor>{
 
-    private static final String WEARABLE_KEY = "com.hongtao.key.weather";
     private static final String LOG_TAG = DetailActivity.class.getSimpleName();
-    private GoogleApiClient mGoogleApiClient;
-    public static final String WEARABLE_PATH = "/wearable";
-    private String mMessage = "hello world";
-    private int mCount = 1;
 
     /*
      * In this Activity, you can share the selected day's forecast. No social sharing is complete
@@ -126,18 +101,6 @@ public class DetailActivity extends AppCompatActivity implements
      */
     private ActivityDetailBinding mDetailBinding;
 
-    @Override
-    protected void onResume() {
-        super.onResume();
-        mGoogleApiClient.connect();
-    }
-
-    @Override
-    protected void onPause() {
-        super.onPause();
-        Wearable.DataApi.removeListener(mGoogleApiClient, this);
-        mGoogleApiClient.disconnect();
-    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -146,19 +109,12 @@ public class DetailActivity extends AppCompatActivity implements
 
         mDetailBinding = DataBindingUtil.setContentView(this, R.layout.activity_detail);
 
-        mGoogleApiClient = new GoogleApiClient.Builder(this)
-                .addApi(Wearable.API)
-                .addConnectionCallbacks(this)
-                .addOnConnectionFailedListener(this)
-                .build();
-
 
         mUri = getIntent().getData();
         if (mUri == null) throw new NullPointerException("URI for DetailActivity cannot be null");
 
         /* This connects our Activity into the loader lifecycle. */
         getSupportLoaderManager().initLoader(ID_DETAIL_LOADER, null, this);
-        sendToWearable();
     }
 
     /**
@@ -438,67 +394,5 @@ public class DetailActivity extends AppCompatActivity implements
      */
     @Override
     public void onLoaderReset(Loader<Cursor> loader) {
-    }
-
-    @Override
-    public void onDataChanged(DataEventBuffer dataEvents) {
-        for (DataEvent dataEvent : dataEvents) {
-            if (dataEvent.getType() != DataEvent.TYPE_CHANGED) {
-                continue;
-            }
-
-            DataItem dataItem = dataEvent.getDataItem();
-            if (!dataItem.getUri().getPath().equals(
-                    WEARABLE_PATH)) {
-                continue;
-            }
-
-            DataMapItem dataMapItem = DataMapItem.fromDataItem(dataItem);
-            DataMap config = dataMapItem.getDataMap();
-            if (Log.isLoggable(LOG_TAG, Log.DEBUG)) {
-                Log.d(LOG_TAG, "Config DataItem updated:" + config);
-            }
-            updateData();
-        }
-    }
-
-
-
-    @Override
-    public void onConnected(@Nullable Bundle bundle) {
-        Wearable.DataApi.addListener(mGoogleApiClient, this);
-    }
-
-    @Override
-    public void onConnectionSuspended(int i) {
-
-    }
-
-    @Override
-    public void onConnectionFailed(@NonNull ConnectionResult connectionResult) {
-
-    }
-
-    private void sendToWearable() {
-        PutDataMapRequest putDataMapReq = PutDataMapRequest.create(WEARABLE_PATH);
-        mCount++;
-        putDataMapReq.getDataMap().putString(WEARABLE_KEY, mMessage + mCount);
-        PutDataRequest putDataReq = putDataMapReq.asPutDataRequest();
-        putDataReq.setUrgent();
-
-        Wearable.DataApi.putDataItem(mGoogleApiClient,putDataReq)
-                .setResultCallback(new ResultCallback<DataApi.DataItemResult>() {
-                    @Override
-                    public void onResult(@NonNull DataApi.DataItemResult dataItemResult) {
-                        Log.v(LOG_TAG, "Sending message from DetialActivity was successful: " + dataItemResult.getStatus()
-                                .isSuccess());
-
-                    }
-                });
-    }
-
-    private void updateData() {
-
-        Log.v(LOG_TAG,"data changed: " + mMessage + mCount);
     }
 }
