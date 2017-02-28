@@ -17,6 +17,8 @@ package com.example.android.sunshine;
 
 import android.content.Context;
 import android.database.Cursor;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
@@ -33,6 +35,7 @@ import com.example.android.sunshine.utilities.SunshineWeatherUtils;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.common.api.ResultCallback;
+import com.google.android.gms.wearable.Asset;
 import com.google.android.gms.wearable.DataApi;
 import com.google.android.gms.wearable.DataEvent;
 import com.google.android.gms.wearable.DataEventBuffer;
@@ -42,6 +45,10 @@ import com.google.android.gms.wearable.DataMapItem;
 import com.google.android.gms.wearable.PutDataMapRequest;
 import com.google.android.gms.wearable.PutDataRequest;
 import com.google.android.gms.wearable.Wearable;
+
+import java.io.ByteArrayOutputStream;
+
+import static com.example.android.sunshine.utilities.SunshineWeatherUtils.getSmallArtResourceIdForWeatherCondition;
 
 /**
  * {@link ForecastAdapter} exposes a list of weather forecasts
@@ -68,10 +75,13 @@ class ForecastAdapter extends RecyclerView.Adapter<ForecastAdapter.ForecastAdapt
 
     private final String TAG = ForecastAdapter.class.getSimpleName();
     private GoogleApiClient mGoogleApiClient;
-    public static final String WEARABLE_PATH = "/wearable";
-    private String mMessage = "hello world";
-    private static final String WEARABLE_KEY = "com.hongtao.key.weather";
+    private static final String TEMPERATURE_PATH = "/temperature";
+    private static final String WEATHER_ICON_PATH = "/icon";
+    private static final String TEMPERATURE_KEY = "com.hongtao.key.temperature";
+    private static final String WEATHER_ICON_KEY = "com.hongtao.key.icon";
 
+    private String mMessage = "hello world";
+    private Bitmap mWeatherIcon;
     @Override
     public void onConnected(@Nullable Bundle bundle) {
         Wearable.DataApi.addListener(mGoogleApiClient, this);
@@ -97,7 +107,7 @@ class ForecastAdapter extends RecyclerView.Adapter<ForecastAdapter.ForecastAdapt
 
             DataItem dataItem = dataEvent.getDataItem();
             if (!dataItem.getUri().getPath().equals(
-                    WEARABLE_PATH)) {
+                    TEMPERATURE_PATH)) {
                 continue;
             }
 
@@ -216,11 +226,16 @@ class ForecastAdapter extends RecyclerView.Adapter<ForecastAdapter.ForecastAdapt
             case VIEW_TYPE_TODAY:
                 weatherImageId = SunshineWeatherUtils
                         .getLargeArtResourceIdForWeatherCondition(weatherId);
+
+                int weatherImageIDtoWearable = getSmallArtResourceIdForWeatherCondition(weatherId);
+                mWeatherIcon = BitmapFactory.decodeResource(mContext.getResources(),
+                        weatherImageIDtoWearable);
+                sendWeatherIconToWearable();
                 break;
 
             case VIEW_TYPE_FUTURE_DAY:
-                weatherImageId = SunshineWeatherUtils
-                        .getSmallArtResourceIdForWeatherCondition(weatherId);
+                weatherImageId =
+                        getSmallArtResourceIdForWeatherCondition(weatherId);
                 break;
 
             default:
@@ -288,8 +303,8 @@ class ForecastAdapter extends RecyclerView.Adapter<ForecastAdapter.ForecastAdapt
         forecastAdapterViewHolder.lowTempView.setContentDescription(lowA11y);
 
         if(viewType == VIEW_TYPE_TODAY){
-            mMessage = highString + " " + lowString;
-            sendToWearable();
+            mMessage = highString + lowString;
+            sendTemperatureToWearable();
         }
     }
 
@@ -384,9 +399,9 @@ class ForecastAdapter extends RecyclerView.Adapter<ForecastAdapter.ForecastAdapt
         }
     }
 
-    private void sendToWearable() {
-        PutDataMapRequest putDataMapReq = PutDataMapRequest.create(WEARABLE_PATH);
-        putDataMapReq.getDataMap().putString(WEARABLE_KEY, mMessage);
+    private void sendTemperatureToWearable() {
+        PutDataMapRequest putDataMapReq = PutDataMapRequest.create(TEMPERATURE_PATH);
+        putDataMapReq.getDataMap().putString(TEMPERATURE_KEY, mMessage);
         PutDataRequest putDataReq = putDataMapReq.asPutDataRequest();
         putDataReq.setUrgent();
 
@@ -401,8 +416,33 @@ class ForecastAdapter extends RecyclerView.Adapter<ForecastAdapter.ForecastAdapt
                 });
     }
 
+    private void sendWeatherIconToWearable(){
+
+        Asset asset = createAssetFromBitmap(mWeatherIcon);
+        PutDataMapRequest dataMap = PutDataMapRequest.create(WEATHER_ICON_PATH);
+        dataMap.getDataMap().putAsset(WEATHER_ICON_KEY,asset);
+        PutDataRequest request = dataMap.asPutDataRequest();
+        request.setUrgent();
+
+        Wearable.DataApi.putDataItem(mGoogleApiClient,request)
+                .setResultCallback(new ResultCallback<DataApi.DataItemResult>() {
+                    @Override
+                    public void onResult(@NonNull DataApi.DataItemResult dataItemResult) {
+                        Log.v(TAG, "Sending image from ForecastAdapter was successful: " + dataItemResult.getStatus()
+                                .isSuccess());
+
+                    }
+                });
+    }
+
     private void updateData() {
 
         Log.v(TAG,"data changed: " + mMessage);
+    }
+
+    private static Asset createAssetFromBitmap(Bitmap bitmap) {
+        final ByteArrayOutputStream byteStream = new ByteArrayOutputStream();
+        bitmap.compress(Bitmap.CompressFormat.PNG, 100, byteStream);
+        return Asset.createFromBytes(byteStream.toByteArray());
     }
 }
