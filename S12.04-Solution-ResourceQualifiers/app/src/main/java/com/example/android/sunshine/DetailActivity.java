@@ -490,7 +490,7 @@ public class DetailActivity extends AppCompatActivity implements
                 .setResultCallback(new ResultCallback<DataApi.DataItemResult>() {
                     @Override
                     public void onResult(@NonNull DataApi.DataItemResult dataItemResult) {
-                        Log.v(LOG_TAG, "Sending message was successful: " + dataItemResult.getStatus()
+                        Log.v(LOG_TAG, "Sending message from DetialActivity was successful: " + dataItemResult.getStatus()
                                 .isSuccess());
 
                     }

@@ -10,11 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="383f3666-22ca-45c6-bba2-f851ece974fb" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../S12.04-Solution-ResourceQualifiers/sunshinewear/src/main/java/com/example/android/sunshine/SunshineWatchLisenerService.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DataLayer/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../DataLayer/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../S12.04-Solution-ResourceQualifiers/app/src/main/java/com/example/android/sunshine/DetailActivity.java" afterPath="$PROJECT_DIR$/../S12.04-Solution-ResourceQualifiers/app/src/main/java/com/example/android/sunshine/DetailActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../S12.04-Solution-ResourceQualifiers/sunshinewear/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/../S12.04-Solution-ResourceQualifiers/sunshinewear/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../S12.04-Solution-ResourceQualifiers/sunshinewear/src/main/java/com/example/android/sunshine/SunshineWatchFace.java" afterPath="$PROJECT_DIR$/../S12.04-Solution-ResourceQualifiers/sunshinewear/src/main/java/com/example/android/sunshine/SunshineWatchFace.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../S12.04-Solution-ResourceQualifiers/app/src/main/java/com/example/android/sunshine/MainActivity.java" afterPath="$PROJECT_DIR$/../S12.04-Solution-ResourceQualifiers/app/src/main/java/com/example/android/sunshine/MainActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="WatchFace.iws" />
