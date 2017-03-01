@@ -11,15 +11,7 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e5fa5e90-e684-4c8b-8d1e-a61e0be6def7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../S12.04-Solution-ResourceQualifiers/app/src/main/java/com/example/android/sunshine/ForecastAdapter.java" afterPath="$PROJECT_DIR$/../S12.04-Solution-ResourceQualifiers/app/src/main/java/com/example/android/sunshine/ForecastAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../S12.04-Solution-ResourceQualifiers/app/src/main/java/com/example/android/sunshine/MainActivity.java" afterPath="$PROJECT_DIR$/../S12.04-Solution-ResourceQualifiers/app/src/main/java/com/example/android/sunshine/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../S12.04-Solution-ResourceQualifiers/sunshinewear/src/main/java/com/example/android/sunshine/SunshineWatchFace.java" afterPath="$PROJECT_DIR$/../S12.04-Solution-ResourceQualifiers/sunshinewear/src/main/java/com/example/android/sunshine/SunshineWatchFace.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../S12.04-Solution-ResourceQualifiers/sunshinewear/src/main/res/values/colors.xml" afterPath="$PROJECT_DIR$/../S12.04-Solution-ResourceQualifiers/sunshinewear/src/main/res/values/colors.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../S12.04-Solution-ResourceQualifiers/sunshinewear/src/main/res/values/dimens.xml" afterPath="$PROJECT_DIR$/../S12.04-Solution-ResourceQualifiers/sunshinewear/src/main/res/values/dimens.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WatchFace/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../WatchFace/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="e5fa5e90-e684-4c8b-8d1e-a61e0be6def7" name="Default" comment="" />
     <ignored path="DataLayer.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -101,8 +93,8 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Wearable/src/main/java/com/example/android/wearable/datalayer/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="157" column="24" selection-start-line="157" selection-start-column="24" selection-end-line="157" selection-end-column="24" />
+            <state relative-caret-position="1890">
+              <caret line="185" column="5" selection-start-line="185" selection-start-column="5" selection-end-line="185" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -2625,8 +2617,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1409" />
-    <option name="y" value="-1057" />
+    <option name="x" value="1619" />
+    <option name="y" value="-646" />
     <option name="width" value="1440" />
     <option name="height" value="1057" />
   </component>
@@ -3029,8 +3021,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1409" y="-1057" width="1440" height="1057" extended-state="0" />
-    <editor active="false" />
+    <frame x="1619" y="-646" width="1440" height="1057" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -3354,8 +3346,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Wearable/src/main/java/com/example/android/wearable/datalayer/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="157" column="24" selection-start-line="157" selection-start-column="24" selection-end-line="157" selection-end-column="24" />
+        <state relative-caret-position="1890">
+          <caret line="185" column="5" selection-start-line="185" selection-start-column="5" selection-end-line="185" selection-end-column="5" />
           <folding />
         </state>
       </provider>
